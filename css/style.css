@@ -1,14 +1,96 @@
-#body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: #707070;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .bold {
     font-weight: bold;
 }
-
 .nav {
-    background-color: #707070;
+    background-color: #4D4D4D;
     padding: 6px;
-    height: 70px;
+
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    font-display: whitesmoke;
+
+}
+
+.logo {
+    float: left;
+    align-content: center;
+    padding-top: 15px;
+}
+
+.inline-block {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.My-UX-Skills {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #707070;
+    color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+.footer {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#toggle1 {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+.myWork {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.background {
+    display: flex;
+    opacity: 95%;
+    position: absolute;
+    margin-top: -700px;
+    justify-content: left;
+    width: 100%;
+    max-height: 700px;
+    z-index: -30;
+    margin-left: -20px;
 }
