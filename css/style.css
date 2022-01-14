@@ -1,169 +1,105 @@
 body {
-    background-color: #c7c7c7;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/* -----------    NAV BAR  ---------------- */
+/* NAV BAR */
 
-.bold {
-    font-weight: bold;
-}
 .nav {
-    background-color: #4d4d4da9;
-    padding: 15px;
-    margin-right: -15px;
-    margin-left: -15px;
-    text-align: right;
+    background-color: #707070;
+    background-size: cover;
     justify-content: space-between;
     display: flex;
-    font-display: whitesmoke;
-    margin-top: -5px;
+    margin:0px;
 }
 
+.navText {
+    font-display: white;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 10px;
+}
 
 .logo {
-    animation: infinite;
-    animation-play-state: running;
     float: left;
     align-content: center;
     padding-top: 15px;
+    padding-bottom: 20px;
     margin-left: 20px;
 }
 
 .inline-block {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
+    color: white;
     margin: 10px;
 }
 
-/* MY SKILLS */
+/* MY SKILLS SECTION */
 
 .My-UX-Skills {
-    color: whitesmoke;
+    background-size: 400px;
+    font-display: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    z-index: 1;
+}
+.bold {
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
 }
-p {
-    display: none;
-    font-size: 15px;
-    font-weight: lighter;
-    flex-wrap: wrap;
+
+li {
+    position: relative;
 }
 
 button {
     background-color: #707070;
-    color: whitesmoke;
+    color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 8px;
     border-radius: 8px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
-/* ----------- MY WORK ---------------*/
+#background {
+    width: 100%;
+    max-height: 400px;
+    z-index: -10;
+    margin: -10px;
+}
+
+/* MY WORK SECTION */
 
 .myWork {
-    color: whitesmoke;
-    text-shadow: 2px 2px rgba(70, 70, 70, 0.836);
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
     text-align: center;
     justify-content: space-evenly;
+    -ms-flex-item-align: center;
+    z-index: 2;
 }
 
-h1 {
-    margin-top: 20px;
-}
-
-.background {
-    display: flex;
-    opacity: 95%;
-    box-shadow: 5px, 5px, 0px, 0px #4D4D4D;
-    position: absolute;
-    margin-top: -700px;
-    justify-content: left;
-    width: 100%;
-    max-height: 700px;
-    z-index: -30;
-    margin-left: -20px;
-}
-
-/* ------------ FOOTER -----------------*/
+/* FOOTER */
 
 .footer {
     text-align: center;
     justify-content: space-evenly;
-    background-color: #4D4D4D;
-    margin-top: 20px;
-    margin-bottom: 0%;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    position: sticky;
+    background-color: #707070;
+    justify-content: baseline;
+
 }
 
-/* --------------- TOGGLE --------------*/
 
 #toggle {
+    border: 1px solid black;
     padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px rgba(80, 80, 80);
-    background-color: rgb(54, 54, 54);
 }
-
-#toggle1 {
-
-    padding: 10px;
-    border-radius: 8px;
-    background-color: rgb(54, 54, 54);
-}
-
-#toggle2 {
-    padding: 10px;
-    border-radius: 8px;
-    background-color: rgb(54, 54, 54);
-}
-
-#toggle3 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
-
-#toggle4 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
-
-#toggle5 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
-
-
-@media only screen and (max-width: 600) {
-    flex-container: columns;
-    width: 100%;
-    .inline-block {
-        background-image: url(/images/Icon\ material-close.png);
-        font-display: none;
-    }
-}
-
