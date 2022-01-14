@@ -1,29 +1,12 @@
-$("#toggle0").on("click", function(){
-    $(".userResearch").slideToggle();
 
+$(".toggle").on("click", function() {
+    $(this).find("p").slideToggle();
+    var siblings = $(this).siblings("h3").find("p");
+    for (let i = 0; i < siblings.length; i++) {
+        const element = siblings[i];
+        if ($(element).css("display") == "block") {
+            $(element).slideToggle();
+        }
+    }
 })
 
-$("#toggle1").on("click", function(){
-    $(".userInterface").slideToggle();
-
-})
-
-$("#toggle2").on("click", function(){
-    $(".webDevelopment").slideToggle();
-
-})
-
-$("#toggle3").on("click", function(){
-    $(".potluck").slideToggle();
-
-})
-
-$("#toggle4").on("click", function(){
-    $(".usda").slideToggle();
-
-})
-
-$("#toggle5").on("click", function(){
-    $(".pinkSistas").slideToggle();
-
-})

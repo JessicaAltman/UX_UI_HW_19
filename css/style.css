@@ -116,46 +116,13 @@ h1 {
 
 /* --------------- TOGGLE --------------*/
 
-#toggle0 {
+.toggle {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 3px rgba(80, 80, 80);
     background-color: rgb(54, 54, 54);
 }
 
-#toggle1 {
-
-    padding: 10px;
-    border-radius: 8px;
-    background-color: rgb(54, 54, 54);
-}
-
-#toggle2 {
-    padding: 10px;
-    border-radius: 8px;
-    background-color: rgb(54, 54, 54);
-}
-
-#toggle3 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
-
-#toggle4 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
-
-#toggle5 {
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.596);
-    background-color: rgb(131, 131, 131);
-}
 
 
 @media only screen and (max-width: 600) {
