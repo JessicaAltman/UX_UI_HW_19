@@ -1,5 +1,6 @@
-$("#toggle").on("click", function(){
+$("#toggle0").on("click", function(){
     $(".userResearch").slideToggle();
+    $(this).removeClass("#toggle0").toggleClass("active");
 })
 
 $("#toggle1").on("click", function(){
