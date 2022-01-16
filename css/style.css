@@ -157,12 +157,12 @@ h1 {
 
 
 
-@media only screen and (max-width: 600) {
-    flex-container: columns;
-    width: 100%;
+@media screen and (max-width: 600px) {
     .inline-block {
         background-image: url(/images/Icon\ material-close.png);
         font-display: none;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
