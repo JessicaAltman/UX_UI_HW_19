@@ -1,4 +1,3 @@
-
 $(".toggle").on("click", function() {
     $(this).find("p").slideToggle();
     var siblings = $(this).siblings("h3").find("p");
@@ -9,4 +8,3 @@ $(".toggle").on("click", function() {
         }
     }
 })
-
