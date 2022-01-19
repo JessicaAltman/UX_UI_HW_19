@@ -38,6 +38,38 @@ body {
     margin: 10px;
 }
 
+/* GRID */
+
+.grid-container {
+    display: grid;
+    flex: content;
+    margin-left: -10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    flex-direction: row;
+    object-fit: cover;
+
+}
+
+.img1 {
+    max-width: fit-content;
+    max-width: 100%;
+}
+
+.img2 {
+    max-width: fit-content;
+    max-width: 100%;
+}
+
+.img3 {
+    max-width: fit-content;
+    max-width: 100%;
+}
+
+
+
 /* MY SKILLS */
 
 .My-UX-Skills {
@@ -125,12 +157,12 @@ h1 {
 
 
 
-@media only screen and (max-width: 600) {
-    flex-container: columns;
-    width: 100%;
+@media screen and (max-width: 600px) {
     .inline-block {
         background-image: url(/images/Icon\ material-close.png);
         font-display: none;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
