@@ -78,6 +78,7 @@ body {
     margin: 10px;
     text-align: center;
     justify-content: space-evenly;
+    border: whitesmoke;
 }
 
 ul {
@@ -88,6 +89,11 @@ p {
     font-size: 15px;
     font-weight: lighter;
     flex-wrap: wrap;
+}
+
+p img {
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -110,7 +116,7 @@ button {
     margin-top: 10px;
     padding-top: 10px;
     text-align: center;
-    justify-content: space-evenly;
+
 }
 
 h1 {
@@ -119,15 +125,17 @@ h1 {
 
 .background {
     display: flex;
-    opacity: 95%;
+    opacity: 50%;
     box-shadow: 5px, 5px, 0px, 0px #4D4D4D;
     position: absolute;
     margin-top: -700px;
     justify-content: left;
     width: 100%;
     max-height: 700px;
+    min-height: 700px;
     z-index: -30;
     margin-left: -20px;
+
 }
 
 /* ------------ FOOTER -----------------*/
@@ -135,7 +143,7 @@ h1 {
 .footer {
     text-align: center;
     justify-content: space-evenly;
-    background-color: #4D4D4D;
+    background-color: #4d4d4da9;
     margin-top: 20px;
     margin-bottom: 0%;
     margin-right: -15px;
@@ -149,10 +157,20 @@ h1 {
 
 .toggle {
     padding: 10px;
-
+    border-color: whitesmoke;
+    border-width: 2px;
+    background-color: #d9c2ba;
+    margin: -5px;
+    border: 2px solid white;
 }
 
+#arrow {
+    float: right;
+}
 
+#arrow flip {
+    transform: rotate(180deg);
+}
 
 @media screen and (max-width: 600px) {
     .inline-block {
