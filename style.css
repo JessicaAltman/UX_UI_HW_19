@@ -7,6 +7,12 @@ body {
 
 .bold {
     font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-shadow: 5px, 5px, #4d4d4da9;
+    font-size: x-large;
 }
 .nav {
         background-color: #4d4d4da9;
@@ -32,6 +38,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-display: white;
 }
+
 
 .heroImg {
     display: flex;
