@@ -19,16 +19,14 @@ body {
     display: flex;
     font-display: whitesmoke;
     margin-top: -5px;
+    position: sticky;
+    top: 0;
 }
 
 
 .logo {
-    animation: infinite;
-    animation-play-state: running;
     float: left;
     align-content: center;
-    padding-top: 15px;
-    margin-left: 20px;
 }
 
 .inline-block {
@@ -151,6 +149,7 @@ h1 {
     padding-bottom: 20px;
     padding-top: 20px;
     position: sticky;
+    bottom: 0;
 }
 
 /* --------------- TOGGLE --------------*/
@@ -159,7 +158,7 @@ h1 {
     padding: 10px;
     border-color: whitesmoke;
     border-width: 2px;
-    background-color: #d9c2ba;
+    background-color: #bea59d;
     margin: -5px;
     border: 2px solid white;
 }
@@ -168,7 +167,7 @@ h1 {
     float: right;
 }
 
-#arrow flip {
+#arrow1 {
     transform: rotate(180deg);
 }
 
