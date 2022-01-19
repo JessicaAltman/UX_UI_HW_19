@@ -142,6 +142,7 @@ h1 {
     text-align: center;
     justify-content: space-evenly;
     background-color: #4d4d4da9;
+    list-style: none;
     margin-top: 20px;
     margin-bottom: 0%;
     margin-right: -15px;
@@ -172,11 +173,13 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-    .inline-block {
-        background-image: url(/images/Icon\ material-close.png);
-        font-display: none;
+    ul {
+        background-image: url(/images/Icon\ ionic-ios-menu.png);
+        background-repeat: no-repeat;
         flex-direction: column;
-        width: 100%;
+    }
+
+    .inline-block {
+        display: none;
     }
 }
-

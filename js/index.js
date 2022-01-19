@@ -8,3 +8,11 @@ $(".toggle").on("click", function() {
         }
     }
 })
+
+$("#myID").on("click", function(){
+    console.log("You clicked on #myID");
+})
+
+$("#myID").on("click", function(){
+    $("#myID").fadeToggle("slow");
+})
